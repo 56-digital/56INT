@@ -147,6 +147,10 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .xx{flex:1}
 .xa{flex:auto}
 .xn{flex:none}
+.xb100{flex-basis:100%;}
+.xb70{flex-basis:70%;}
+.xb50{flex-basis:50%;}
+.xg1{flex-grow:1}
 .xo0{order:0}
 .xo1{order:1}
 .xo2{order:2}
@@ -189,7 +193,11 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .z3{z-index:3}
 .z4{z-index:4}
 .w0{width:0}
+.w3{width:3rem;}
+.w7{width:7rem;}
+.w40{width:40rem;}
 .w100{width:100%}
+.mw50{max-width:50rem;}
 .h0{height:0}
 .h100{height:100%}
 .vw50{width:50vw}
@@ -208,6 +216,7 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .ar50:before{padding-top:50%;content:"";display:block}
 .ar75:before{padding-top:75%;content:"";display:block}
 .ar100:before{padding-top:100%;content:"";display:block}
+.fs0-8{font-size:0.8rem}
 .fs1{font-size:1rem}
 .fs1-2{font-size:1.2rem}
 .fs1-6{font-size:1.6rem}
