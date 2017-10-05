@@ -2,6 +2,7 @@ body{
 	font-family: 'Helvetica', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	hyphens:auto;
+	letter-spacing:0.02em;
 }
 
 html{font-size: 80%;}
