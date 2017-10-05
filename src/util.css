@@ -131,6 +131,8 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .xas{align-items:stretch}
 .xafs{align-items:flex-start}
 .xafe{align-items:flex-end}
+.xasfe{align-self:flex-end;}
+.xasfs{align-self:flex-start;}
 .xdr{flex-direction:row}
 .xdrr{flex-direction:row-reverse}
 .xdc{flex-direction:column}
@@ -150,6 +152,7 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .xb100{flex-basis:100%;}
 .xb70{flex-basis:70%;}
 .xb50{flex-basis:50%;}
+.xb33-33{flex-basis:33.33%;}
 .xg1{flex-grow:1}
 .xo0{order:0}
 .xo1{order:1}
@@ -197,6 +200,8 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .w7{width:7rem;}
 .w40{width:40rem;}
 .w100{width:100%}
+.mw15{max-width:15rem;}
+.mw25{max-width:25rem;}
 .mw50{max-width:50rem;}
 .h0{height:0}
 .h100{height:100%}
