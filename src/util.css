@@ -154,6 +154,7 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .xb50{flex-basis:50%;}
 .xb33-33{flex-basis:33.33%;}
 .xg1{flex-grow:1}
+.xs1{flex-shrink:1}
 .xo0{order:0}
 .xo1{order:1}
 .xo2{order:2}
