@@ -12,3 +12,7 @@ html{font-size: 80%;}
 	html{font-size: 110%;}
 }
 
+video {
+	width: 60vmin;
+}
+

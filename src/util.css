@@ -188,6 +188,8 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .psf{position:fixed}
 .pss{position:static}
 .t0{top:0}
+.t50l50{top:50%;left:50%;}
+.tt50{transform:translate(-50%,-50%);}
 .r0{right:0}
 .b0{bottom:0}
 .l0{left:0}
