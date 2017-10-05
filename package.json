@@ -1,0 +1,32 @@
+{
+  "name": "56int",
+  "version": "1.0.0",
+  "description": "elements ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run server & npm run css:watch",
+    "server": "browser-sync start -s",
+    "css:watch": "postcss 'src/*.css' -w --dir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/56-digital/56INT.git"
+  },
+  "author": "Timur Fattahov <timur@56.digita> (timur.black)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/56-digital/56INT/issues"
+  },
+  "homepage": "https://github.com/56-digital/56INT#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.4.0",
+    "budo": "^10.0.4",
+    "onchange": "^3.2.1",
+    "postcss-clean": "^1.1.0",
+    "postcss-cli": "^4.1.1"
+  }
+}
