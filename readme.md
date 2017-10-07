@@ -22,11 +22,11 @@ Todo
 * Fixed video in the center
 	* max-height breakpoint
 * Mute/Unmute on hover with word (ref: dfm)
-* 56 Logo refresh the page
-* no a text-decoration
-	* low opacity on hover
+* v/ 56 Logo refresh the page
+* v/ no a text-decoration
+	* v/low opacity on hover
 
-* Changing text
+* v/ Changing text
 
 * Current time in bottom right
 * Inverted colours at night sunrise-sunset EST
