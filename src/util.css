@@ -270,6 +270,7 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .tc4{columns:4}
 .curp{cursor:pointer}
 .curd{cursor:default}
+.curn{cursor:none}
 .cura{cursor:alias}
 .curzi{cursor:zoom-in}
 .curzo{cursor:zoom-out}
