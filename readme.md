@@ -14,3 +14,21 @@ In order from Top Left, clockwise:
 * Icon
 * Client List
 * Services
+
+Todo
+---
+* Video loop
+* Bigger video
+* Fixed video in the center
+	* max-height breakpoint
+* Mute/Unmute on hover with word (ref: dfm)
+* Description max-width
+* 56 Logo refresh the page
+* no a text-decoration
+	* low opacity on hover
+
+* Changing text
+
+* Current time in bottom right
+* Inverted colours at night sunrise-sunset EST
+	* Checktime every 10 minutes?

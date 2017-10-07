@@ -102,6 +102,7 @@ dt, dd, blockquote, address { margin: 0; padding: 0 }
 .pl3{padding-left:3rem}
 .pl4{padding-left:4rem}
 .px0{padding-left:0;padding-right:0}
+.px0-5{padding-left:0.5rem;padding-right:0.5rem}
 .px1{padding-left:1rem;padding-right:1rem}
 .px2{padding-left:2rem;padding-right:2rem}
 .px3{padding-left:3rem;padding-right:3rem}
