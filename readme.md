@@ -19,9 +19,9 @@ Todo
 ---
 * v/ Video loop
 * Bigger video
-* Fixed video in the center
+* v/ Fixed video in the center
 	* max-height breakpoint
-* Mute/Unmute on hover with word (ref: dfm)
+* v/ Mute/Unmute on hover with word (ref: dfm)
 * v/ 56 Logo refresh the page
 * v/ no a text-decoration
 	* v/low opacity on hover
@@ -30,4 +30,4 @@ Todo
 
 * Current time in bottom right
 * Inverted colours at night sunrise-sunset EST
-	* Checktime every 10 minutes?
+	* Check time every 10 minutes?

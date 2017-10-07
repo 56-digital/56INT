@@ -6,9 +6,18 @@
 	<link rel="stylesheet" href="dist/font.css">
 	<link rel="stylesheet" href="dist/util.css">
 	<link rel="stylesheet" href="dist/main.css">
+
 </head>
 <body>
+	<script>
+		function handleDate () {
+			var d = new Date()
+			var h = d.getHours()
 
+			if (h >= 13 && h <= 24 || h >= 1 && h <= 6) document.body.classList.add('black')
+		}
+		handleDate()
+	</script>
 	<main class='x xw xafs px1 py1 fs0-8 vhmn100'>
 		<header class='x xw xjb w100 xasfs'>
 			<div class='xb50 w6 db' id='logo'>
@@ -42,7 +51,7 @@
 			<div id='text' class='fs6-4 fw200 psa t50l50 tt50 w100'></div>
 			<div id='vid' mh='psr tt0 t0 l0' class='t50l50 tt50 psf op0'>
 				<div class='psr'>
-					<video class='curp' muted autoplay loop src="assets/output.mp4"></video>
+					<video muted autoplay loop src="assets/output.mp4"></video>
 					<span id='mute' class='psa t0 l0 dn curn usn'>unmute</span>
 				</div>
 			</div>
