@@ -11,11 +11,13 @@
 
 	<main class='x xw xafs px1 py1 fs0-8 vhmn100'>
 		<header class='x xw xjb w100 xasfs'>
-			<div class='xb50 w6' id='logo'>
-				<svg class='w3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 68" style="top:10px"><path d="M10.8 56.8c.8-.3 19.6-5.5 19.6-18.5-.1-4.3-1.5-6.1-5.2-6.1-3.6 0-7.2 2.2-9.5 4.8l-2-.4L17.4 16h14.3c4.4 0 6.8-.6 9.7-3.6h1.2l-4.2 11.4H19l-1.7 9.4c2.2-2.2 5.9-4 9.7-4 6.5 0 12 1.9 12 9.6 0 15.3-27.6 17.9-28.2 18zM69.8 14.8c-.8.3-17.7 6.1-17.8 25.8.7-2.3 4-10.8 11.8-10.8 7.3 0 11.4 5.7 11.4 12 0 9.9-7.3 15-15.6 15-11.3 0-16.2-7.9-16.2-17.4.1-22.5 25.8-24.6 26.4-24.6zM52 40.9c.1 7 3.3 12.8 8.8 12.8 3.8 0 7.2-2.5 7.2-9 0-4.8-3.2-7.8-7.8-7.8-4.9.1-7.6 3.1-8.2 4z"/></svg>
+			<div class='xb50 w6 db' id='logo'>
+				<a href='/'>
+					<svg class='w3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 68" style="top:10px"><path d="M10.8 56.8c.8-.3 19.6-5.5 19.6-18.5-.1-4.3-1.5-6.1-5.2-6.1-3.6 0-7.2 2.2-9.5 4.8l-2-.4L17.4 16h14.3c4.4 0 6.8-.6 9.7-3.6h1.2l-4.2 11.4H19l-1.7 9.4c2.2-2.2 5.9-4 9.7-4 6.5 0 12 1.9 12 9.6 0 15.3-27.6 17.9-28.2 18zM69.8 14.8c-.8.3-17.7 6.1-17.8 25.8.7-2.3 4-10.8 11.8-10.8 7.3 0 11.4 5.7 11.4 12 0 9.9-7.3 15-15.6 15-11.3 0-16.2-7.9-16.2-17.4.1-22.5 25.8-24.6 26.4-24.6zM52 40.9c.1 7 3.3 12.8 8.8 12.8 3.8 0 7.2-2.5 7.2-9 0-4.8-3.2-7.8-7.8-7.8-4.9.1-7.6 3.1-8.2 4z"/></svg>
+				</a>
 			</div>
 			<div class='xb50 x xw xjb c6' id="about">
-				<div class='xb50 xg1 pr3 pb1 mw50'>
+				<div id='desc' class='xb50 xg1 pr3 pb1 mw50'>
 					<span class='ffo fsi' style='line-height:1'>B</span>oo-teek design studio based in Toronto.
 				</div>
 				<div id="info" class='pr2'>
@@ -39,7 +41,7 @@
 		<section class='w100 tac psr'>
 			<div id='text' class='fs6-4 fw200 psa t50l50 tt50 w100'></div>
 			<div id='vid' class='px2 py2 op0'>
-				<video muted src="assets/output.mp4"></video>
+				<video muted loop src="assets/output.mp4"></video>
 			</div>
 		</section>
 
@@ -83,36 +85,7 @@
 	</main>
 
 
-	<script>
-
-		function init () {
-			var strings = ['<span class="ffo fsi">N</span>ew', 'site', 'under', 'construction', '']
-			var txt = document.getElementById('text')
-			var vidEl = document.getElementById('vid')
-			var vid = vidEl.querySelector('video')
-			var strt = 0
-
-
-			function next () {
-				txt.innerHTML = strings[strt]	
-				strt++
-			}
-
-			function done () {
-				clearInterval(run)
-				txt.classList.add('dn')
-				vidEl.classList.remove('op0')
-				vid.play()
-
-				console.log('done')
-			}
-
-			var run = setInterval(function () {
-				strt == 4 ? done() : next()
-			}, 300)
-		}
-
-		init()
+	<script src="dist/main.js">
 	</script>
 </body>
 </html>

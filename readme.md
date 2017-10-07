@@ -17,12 +17,11 @@ In order from Top Left, clockwise:
 
 Todo
 ---
-* Video loop
+* v/ Video loop
 * Bigger video
 * Fixed video in the center
 	* max-height breakpoint
 * Mute/Unmute on hover with word (ref: dfm)
-* Description max-width
 * 56 Logo refresh the page
 * no a text-decoration
 	* low opacity on hover
