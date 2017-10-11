@@ -6,6 +6,10 @@ body{
 	line-height:1.3;
 	font-weight:200;
 }
+body.black{background-color:black;color:white;}
+body.black svg{fill:white;}
+body.black a{color:white;}
+body .svg svg .w{fill:white;}
 
 html{font-size: 80%;}
 @media screen and (min-width: 900px){
@@ -16,7 +20,12 @@ html{font-size: 80%;}
 }
 
 video {width: 80vmin;}
-
+.xs1{flex-shrink:1;}
 
 a{text-decoration:none;color:black;}
 a:hover{opacity:0.8;}
+.cw{color:white;}
+#mute{
+	mix-blend-mode:difference;
+}
+.svg svg{width: 5rem;}

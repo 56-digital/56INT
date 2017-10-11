@@ -13,8 +13,9 @@
 		function handleDate () {
 			var d = new Date()
 			var h = d.getHours()
+			console.log(h)
 
-			if (h >= 13 && h <= 24 || h >= 1 && h <= 6) document.body.classList.add('black')
+			if (h >= 20 && h <= 24 || h >= 1 && h <= 6) document.body.classList.add('black')
 		}
 		handleDate()
 	</script>
@@ -27,20 +28,23 @@
 			</div>
 			<div class='xb50 x xw xjb c6' id="about">
 				<div id='desc' class='xb50 xg1 pr3 pb1 mw50'>
+					<span class='op0 db mb0-4'>About</span>
 					<span id='let' class='ffo fsi' style='line-height:1'>B</span><span class='di' id='sen'>oo-teek design studio based in Toronto.</span>
 				</div>
 				<div id="info" class='pr2'>
-					<div class='mb1'>
-						<span class='op25 db mb0-5'>Email</span>
+					<div class='mb1 dn'>
+						<span class='op25 db mb0-4'>Email</span>
 						<a href="mailto:hello@56.digital?subject=Hi">hello@56.digital</a>
 					</div>
 					<div class='mb1'>
-						<span class='op25 db mb0-5'>Address</span>
-						<p>25 Liberty Street</p>
-						<p>Toronto, ON M6K 1A6</p>
+						<span class='op25 db mb0-4'>Address</span>
+						<p>201-25 Liberty Street</p>
+						<p>Toronto, ON</p>
+						<p>Canada M6K 1A6</p>
 					</div>
 					<div class='mb1'>
-						<span class='op25 db mb0-5'>Twitter</span>
+						<span class='op25 db mb0-4'>Contact</span>
+						<a class='db' href="mailto:hello@56.digital?subject=Hi">hello@56.digital</a>
 						<a href="https://twitter.com/56.digital" target="_blank" rel="noopener">@56.digital</a>
 					</div>
 				</div>
@@ -48,18 +52,18 @@
 		</header>
 
 		<section class='w100 tac psr'>
-			<div id='text' class='fs6-4 fw200 psa t50l50 tt50 w100'></div>
+			<div id='text' class='psf t50l50 tt50 fs6-4 fw200 psa t50l50 tt50 w100'></div>
 			<div id='vid' mh='psr tt0 t0 l0' class='t50l50 tt50 psf op0'>
 				<div class='psr'>
 					<video muted autoplay loop src="assets/output.mp4"></video>
-					<span id='mute' class='psa t0 l0 dn curn usn'>unmute</span>
+					<span id='mute' class='psa fs0-8 cw t0 l0 dn curn usn'>Unmute</span>
 				</div>
 			</div>
 		</section>
 
 		<footer class='x xw xjb px0-5 w100 xasfe lh1-5'>
 			<div class='xb50' id="services">
-				<span class='op25 db mb0-5' >Services</span>
+				<span class='op25 db mb0-4' >Services</span>
 				<div class='x xw mw15'>
 					<div class='xb50'>Web Design</div>
 					<div class='xb50'>Graphic Design</div>
@@ -73,26 +77,47 @@
 					<div class='xb50'>Marketing Strategy</div>
 				</div>
 			</div>
-			<div class='xb50' id="clients">
-				<span class='op25 db mb0-5'>Clients</span>
-				<div class='x xw mw25'>
-					<div class='xb33-33'>Metro Boomin</div>
-					<div class='xb33-33'>Roy Woods</div>
-					<div class='xb33-33'>Hypbeast</div>
-					<div class='xb33-33'>Visionelie</div>
-					<div class='xb33-33'>Vejas</div>
-					<div class='xb33-33'>SlamJam Socialism</div>
-					<div class='xb33-33'>Daniel Caesar</div>
-					<div class='xb33-33'>Drew Howard</div>
-					<div class='xb33-33'>Alter Ego</div>
-					<div class='xb33-33'>DAIS</div>
-					<div class='xb33-33'>Harrison</div>
-					<div class='xb33-33'>The Creator Class</div>
-					<div class='xb33-33'>Kid. Studio</div>
-					<div class='xb33-33'>LA Timpa</div>
-					<div class='xb33-33'>Derek Wise</div>
+			<div class='xb50 x xw xafe xjb' id="clients">
+				<div>
+					<span class='op25 db mb0-4'>Clients</span>
+					<div class='x xw mw25'>
+						<div class='xb33-33'>Metro Boomin</div>
+						<div class='xb33-33'>Roy Woods</div>
+						<div class='xb33-33'>Hypbeast</div>
+						<div class='xb33-33'>Visionelie</div>
+						<div class='xb33-33'>Vejas</div>
+						<div class='xb33-33'>SlamJam Socialism</div>
+						<div class='xb33-33'>Daniel Caesar</div>
+						<div class='xb33-33'>Drew Howard</div>
+						<div class='xb33-33'>Alter Ego</div>
+						<div class='xb33-33'>DAIS</div>
+						<div class='xb33-33'>Harrison</div>
+						<div class='xb33-33'>The Creator Class</div>
+						<div class='xb33-33'>Kid. Studio</div>
+						<div class='xb33-33'>LA Timpa</div>
+						<div class='xb33-33'>Derek Wise</div>
+					</div>
+				</div>
+
+				<div class='xs1 svg pr1'>
+					<svg viewBox="0 0 51 51" xmlns="http://www.w3.org/2000/svg">
+
+					  <g fill="none" fill-rule="evenodd">
+					    <path d="M40.37927 41.04247l.70710678-.7071068 2.47485 2.47485-.70710678.7071068zm-32.9618 1.72714l2.47485-2.47485.70710678.7071068-2.47485 2.47485zm32.9136-32.89388l2.47485-2.47485.70710678.7071068-2.47485 2.47485zM7.41458 8.19958l.70710678-.7071068 2.47485 2.47485L9.88943 10.67443z" opacity=".5" fill-rule="nonzero" class='w' fill="#231F20"/>
+					    <path class='w' fill="#231F20" fill-rule="nonzero" d="M24.8845801 24.63794005l17.81339994-12.91180008 1.1738 1.6194L26.0583801 26.25734005z"/>
+					    <path class='w' fill="#231F20" fill-rule="nonzero" d="M24.58133996 25.931l1.833-.80020002 6.0015001 13.7474999-1.833.80020002z"/>
+					    <path class='w'  d="M25.7 25.3l-.2.2"/>
+					    <circle class='w' fill="#231F20" fill-rule="nonzero" cx="25.5" cy="25.5" r="1.2"/>
+					    <path d="M24.6 24.7c.2-.2.5-.3.8-.3L16.1 5.6l-.9.4 9.4 18.7z" fill="#B78300" fill-rule="nonzero"/>
+					    <path d="M47 25h3.5v1H47zM25 47.1h1v3.5h-1zM25 .5h1V4h-1zM.5 25H4v1H.5z" fill-rule="nonzero" class='w' fill="#231F20" />
+					    <path d="M47.1 25h3.5v1h-3.5zM25 47.1h1v3.5h-1zM25 .5h1V4h-1zM.5 25H4v1H.5z" opacity=".2" fill-rule="nonzero" class='w' fill="#231F20"/>
+					    <path d="M45.21948 34.22684l.3827-.9239 3.23365 1.33945-.3827.9239zM15.42001 48.43023l1.33945-3.23365.9239.3827-1.33945 3.23365zM33.23077 5.43861l1.33945-3.23365.9239.3827-1.33945 3.23365zM2.22786 16.41618l.3827-.9239 3.23365 1.33945-.3827.9239zm43.421 1.31804l-.3827-.9239 3.23365-1.33945.3827.9239zm-11.1035 31.0506l-1.33945-3.23365.9239-.3827 1.33945 3.23365zM16.76889 5.86143l-1.33945-3.23365.9239-.3827 1.33945 3.23365zM2.63298 35.54896l-.3827-.9239 3.23365-1.33945.3827.9239z" opacity=".5" fill-rule="nonzero" class='w' fill="#231F20"/>
+					  </g>
+					</svg>
 				</div>
 			</div>
+
+		
 		</footer>	
 	</main>
 
