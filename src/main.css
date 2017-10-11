@@ -20,7 +20,6 @@ html{font-size: 80%;}
 }
 
 video {width: 80vmin;}
-.xs1{flex-shrink:1;}
 
 a{text-decoration:none;color:black;}
 a:hover{opacity:0.8;}
@@ -28,4 +27,11 @@ a:hover{opacity:0.8;}
 #mute{
 	mix-blend-mode:difference;
 }
-.svg svg{width: 5rem;}
+
+.svg svg{width: 100%; max-width:4rem;}
+.rotate{animation:60s linear rot infinite;}
+
+@keyframes rot {
+	0% {transform:rotate(0deg);}
+	100%{transform:rotate(360deg);}
+}
